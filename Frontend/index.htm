@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="MainContainer">
+        
+        <h2 id="search_heading">SEARCH ORDER</h2>
+        <div id="Container" >
+            <div id="form_div">
+            <fieldset id="fieldset">
+            <legend>Search Order</legend>
+            <form name="Search Order" id="form">
+                <p>By</p>
+                <div>
+                    <input type="radio" id="orderId" name="searchCriteria" value="orderId" checked>
+                    <label for="orderId">Order ID</label>
+                </div>
+                <div>
+                    <input type="radio" id="customerName" name="searchCriteria" value="customerName">
+                    <label for="customerName">Name</label>
+                </div>
+                <div>
+                    <input type="radio" id="customerEmail" name="searchCriteria" value="customerEmail">
+                    <label for="customerEmail">Email</label>
+                </div>
+                <div>
+                    <input type="radio" id="customerPhone" name="searchCriteria" value="customerPhone">
+                    <label for="customerPhone">Mobile Number</label>
+                </div>
+            <input type="text" id="searchTerm" placeholder="Search">
+            <button id="Search_btn">SEARCH ORDER</button>
+        </fieldset>
+    </div>
+        </form>
+           </div>
+
+   
+
+        <div id="searchResults">
+            <h1>Please Search Order</h1>
+            <div id="test">
+                <h2 style="text-align: center; margin-top: 10px; margin-bottom: 10px;">Credentials For Testing </h2>
+                <div id="Credentials">
+                    <div>
+                        <h3 style="margin-bottom: 2px;">Customer 1</h3>
+                        <p>orderId: 1</p>
+                        <p>Name: Vinay Kumar Yadav</p>
+                        <p>Email: v841241@gmail.com</p>
+                        <p>Mobile Number: 9199666129</p>
+                    </div>
+                    <div>
+                        <h3 style="margin-bottom: 2px;">Customer 2</h3>
+                        <p>orderId: 2</p>
+                        <p>Name: Raj Kumar</p>
+                        <p>Email: Raj123@gmail.com</p>
+                        <p>Mobile Number: 9199666126</p>
+                    </div>
+                    <div>
+                        <h3 style="margin-bottom: 2px;">About Project</h3>
+                        <p>&rarr; Used Language: HTML , Javascript , PHP</p>
+                        <p>&rarr; fetch function is used to make network requests</p>
+                        <p>&rarr; Database: MySQL</p>
+                        <p>&rarr; Show Loading Message During Fetch</p>
+                        <a href="">Source Code</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

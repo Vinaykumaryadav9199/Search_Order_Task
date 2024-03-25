@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#MainContainer{
+    width: 100vw;
+    min-height: 100vh;
+    height:fit-content;
+    background-color:#e7e7e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#Container{       
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+#form_div
+{
+    background-color: white;
+    padding: 8px;
+    width: 85%;
+    border-radius: 40px;
+}
+#search_heading{
+    text-align: center;
+  padding: 20px 20px;
+
+}
+#fieldset{
+  padding: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 40px;
+  background-color: white;
+  width: 100%;
+}
+#form{
+    display: flex;
+    gap: 1.2%;
+   
+    align-items: center;
+}
+#searchTerm{
+    width: 43%;
+    height: 35px;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid black;
+    padding-left: 10px;
+    background-color:#dddddd ;
+}
+#Search_btn{
+    height: 35px;
+    width: 15%;
+    color: white;
+    border-radius: 40PX;
+    border: 0px solid white;
+    background: linear-gradient(to right, #1fdd5d, #09782e);
+    cursor: pointer;
+    
+}
+#searchResults{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+   
+
+}
+#searchResult{
+    width: 85%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    background:#f8f8f8;
+    margin-top: 2%;
+    border-radius: 5px;
+    gap: 20px;
+
+}
+#container1{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+#Container2{
+    background: white;
+    margin-left: 3%; 
+    display: flex;
+    width: 60%;
+    z-index: 10;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+#image{
+   height: 100px;
+   width: 100px;
+}
+#Details{
+    width: 90%;
+    margin: 2%;
+}
+
+#product_dis{
+
+    display: flex;
+    gap: 8% ;
+    width:100%;
+   
+   
+}
+#product_date{
+    font-size: large;
+    font-weight: 600;
+}
+#PaymentStatus{
+    font-size: medium;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #1fdd5d;
+    border-radius: 3px;
+}
+#buyerDetails{
+    font-size: large;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 1%;
+    
+}
+#aboutpayment
+{
+    font-size: medium;
+    color: red;
+    font-weight: bold;
+}
+#total{
+    font-size: medium;
+   font-weight: bold;
+    
+}
+
+#track{
+    padding: 3px 7px 3px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background:#9e9d9d;
+    border: none;
+}
+
+#product_dis{
+        font-size: small;
+        font-weight: 500;
+}
+
+#product_name{
+   font-size: larger;
+}
+#notfound{
+    font-size: xx-large;
+    font-weight: bold;
+}
+#test{
+    height: fit-content;
+    margin-top: 20px;
+    width: 70%;
+}
+#Credentials{
+    display:flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+/* Media query for screens up to 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    #Credentials{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20%;
+    }
+    #form{
+        display: flex;
+        gap: 1.2%;
+        flex-wrap: wrap;
+       
+        align-items: center;
+    }
+    #form_div
+{
+    background-color: white;
+    padding: 8px;
+    width: 100%;
+    border-radius: 40px;
+}
+#Search_btn{
+    height: 35px;
+    width: 100px;
+    color: white;
+    border-radius: 40PX;
+    border: 0px solid white;
+    background: linear-gradient(to right, #1fdd5d, #09782e);
+    cursor: pointer;
+    
+}
+
+#container1{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+#Container2{
+    background: white;
+    margin-left: 3%; 
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    z-index: 10;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+    
+}
+
